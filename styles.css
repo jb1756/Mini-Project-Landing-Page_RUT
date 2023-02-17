@@ -14,7 +14,7 @@ body {
 header, 
 footer{
     height: 60px;
-    max-width: 100%;
+    width: 100%;
     line-height: 50px;
     background-color: rgb(14, 212, 212);
 }
@@ -24,8 +24,12 @@ header{
     border-bottom: 10px solid black;
 }
 
-footer{
-    
+footer {
+    positon: absolute;
+    margin-top: 0;
+    bottom:0;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
 }
 
 a {
@@ -52,4 +56,8 @@ main{
 
 main ,.text-center, .text-right{
     text-align: center;
+}
+
+figcaption {
+    margin:30px;
 }
