@@ -25,8 +25,7 @@ header{
 }
 
 footer {
-    positon: absolute;
-    margin-top: 0;
+    position:fixed;
     bottom:0;
     border-top: 10px solid;
     border-bottom: 10px solid;
