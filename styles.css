@@ -1,69 +1,74 @@
-* {
-    margin:0;
-    padding:0;
-}
+
 
 body {
-  position: relative;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 20px;
-  background-color:burlywood;
-  color:black;
+    background-color: yellow;
+    font-family: sans-serif, calibri;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
 }
 
-header, 
-footer{
-    height: 60px;
-    width: 100%;
-    line-height: 50px;
-    background-color: rgb(14, 212, 212);
-}
-
-header{
-    position: fixed;
-    border-bottom: 10px solid black;
-}
-
-footer {
-    position:fixed;
-    bottom:0;
-    border-top: 10px solid;
-    border-bottom: 10px solid;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    display: inline;
-    padding: 0 10px;
-}
-
-label {
-    display: inline-block;
-    width: 100%;
+ul.links {
+    list-style-type: none;
+    font-size: large;
+    text-align: right;
 }
 
 h1 {
-    margin: 20px;
-}
-
-main{
-    padding: 50px;
-}
-
-main ,.text-center, .text-right{
     text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: large;
+}
+
+form{
+    text-align: center;
+    margin-left: 20px;
 }
 
 .information {
     margin:0 auto;
     width: 600px;
     padding: 10px;
-    border: 5px solid crimson;
+    border: 5px 
+    justify-content: center;
 }
 
-figcaption {
-    margin:30px;
+ul {
+    text-align: center;
+
+}
+
+ul.registration {
+    list-style-type: none;
+}
+
+label, input {
+    margin-bottom: 10px;
+    display: table-cell;
+}
+
+label.email {
+    padding-left: 27.5px;
+}
+
+
+div {
+    height: 50px;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
 }
